@@ -49,7 +49,7 @@ ob_start();
                     <header class="major d-flex justify-content-between align-middle">
                         <h2>Derniers Wikis</h2>
                    
-                        <input  onkeyup="search(this.value)" type="text" class="w-25 h-25 bg-dark">
+                        <input  onkeyup="search(this.value)" type="text" placeholder="search "class="w-25 h-25 bg-dark">
                     </header>
                     <div id="features" class="features">
                         <?php foreach ($latestWikis  as $wiki) { ?>
