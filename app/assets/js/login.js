@@ -52,7 +52,7 @@ function validatePassword() {
 // Handling Form Submitting 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-   alert('presubmit');
+   //alert('presubmit');
     validateEmail();
     validatePassword();
       

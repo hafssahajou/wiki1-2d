@@ -30,7 +30,7 @@ ob_start();
                     <div class="content flex-items-center m-20 ">
                         <header>
                             <h1>Hi, I m WIKI<br />
-                                Hafssa</h1>
+                                Hafssa</h1>sta
 
                         </header>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cupiditate maxime, nisi
@@ -109,18 +109,19 @@ ob_start();
                 </section>
 
                 <!-- Menu -->
-                <nav id="menu">
+                 <nav id="menu">
 
                     <div id="header">
                         <button><a href="index.php?action=login">Login</a></button>
                         <button><a href="index.php?action=register">sign-up</a></button>
-                    </div>
-                    <header class="major">
+                    </div> 
+                    <!-- <header class="major">
                         <h2>Menu</h2>
                     </header>
                     <ul>
                         <li><a href="index.php?action=index">Homepage</a></li>
                         <li><a href="../app/views/wiki/addwiki.php">Liste Wikis</a></li>
+                        <li><a href="../app/views/Tag/Addtag.php">Liste Tags</a></li>
                         <li><a href="index.php?action=dashboard">statistique </a></li>
                         <li>
                             <span class="opener">Gategory</span>
@@ -132,10 +133,10 @@ ob_start();
                             </ul>
                         </li>
 
-                    </ul>
-                </nav>
+                    </ul> -->
+                </nav> 
 
-                <!-- Section -->
+                
                 <section>
                     <header class="major">
                         <h2>Ante interdum</h2>
@@ -159,7 +160,7 @@ ob_start();
                     </ul>
                 </section>
 
-                <!-- Section -->
+                 Section 
                 <section>
                     <header class="major">
                         <h2>Contact</h2>
@@ -175,7 +176,7 @@ ob_start();
                     </ul>
                 </section>
 
-                <!-- Footer -->
+                Footer 
                 <footer id="footer">
                     <p class="copyright">&copy; 2024-2025 HAFSSA HAJOU</p>
                 </footer>
@@ -185,7 +186,7 @@ ob_start();
 
     </div>
 
-    <!-- Scripts -->
+    Scripts 
     <script src="../app/assets/js/jquery.min.js"></script>
     <script src="../app/assets/js/browser.min.js"></script>
     <script src="../app/assets/js/breakpoints.min.js"></script>
